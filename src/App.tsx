@@ -1,5 +1,11 @@
+import Grid from "./components/Grid";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Grid></Grid>
+    </>
+  );
 }
 
 export default App;
