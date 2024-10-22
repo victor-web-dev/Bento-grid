@@ -1,0 +1,53 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "create social social schedule"
+    "create social social schedule"
+    "ai manage maintain schedule"
+    "ai audience grow grow";
+
+  height: 95vh;
+  width: 100%;
+  padding: 3rem;
+  gap: 1.5rem;
+}
+
+.item {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.grid-item-create {
+  grid-area: create;
+  background-color: #fdede1;
+}
+
+.grid-item-ai {
+  grid-area: ai;
+}
+
+.grid-item-social {
+  grid-area: social;
+}
+
+.grid-item-manage {
+  grid-area: manage;
+}
+
+.grid-item-audience {
+  grid-area: audience;
+}
+
+.grid-item-maintain {
+  grid-area: maintain;
+}
+
+.grid-item-grow {
+  grid-area: grow;
+}
+
+.grid-item-schedule {
+  grid-area: schedule;
+}
