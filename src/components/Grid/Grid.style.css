@@ -102,22 +102,21 @@
   background-color: #f3eef2;
   overflow: hidden;
   /* text-align: center; */
-  /* width: 100%; */
-  padding: 1.5rem;
 }
 
 .grid-item-manage > div {
   width: 100%;
+  padding: 2rem;
 }
 
 .grid-item-manage img {
-  width: 25ch;
+  width: 20vw;
 }
 
 .grid-item-manage p {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   line-height: 1;
-  width: 10rem;
+  width: 10ch;
 }
 
 .grid-item-audience {
