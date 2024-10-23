@@ -19,9 +19,11 @@ export function Grid() {
           </div>
 
           <div className="item grid-item-ai">
-            <p>Write your content using Ai.</p>
             <div>
-              <img src={aiContentImg} alt="ai talk" />
+              <p>Write your content using Ai.</p>
+              <div>
+                <img src={aiContentImg} alt="ai talk" />
+              </div>
             </div>
           </div>
 
