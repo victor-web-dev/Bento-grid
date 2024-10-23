@@ -67,6 +67,34 @@
 
 .grid-item-social {
   grid-area: social;
+  background-color: #7651dc;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.grid-item-social p:first-child,
+.grid-item-social span {
+  font-size: 5rem;
+  width: 12ch;
+  font-weight: var(--med-weight);
+  line-height: 1;
+}
+
+.grid-item-social span:first-child {
+  color: #ffcc69;
+}
+
+.grid-item-social span:last-child {
+  font-style: italic;
+}
+
+.grid-item-social p:last-child {
+  font-size: 1.3rem;
+}
+
+.grid-item-social img {
+  padding-top: 1.5rem;
+  width: 20ch;
 }
 
 .grid-item-manage {

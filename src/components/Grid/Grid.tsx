@@ -1,6 +1,7 @@
 import "./Grid.style.css";
 import createPostImg from "@/assets/images/illustration-create-post.webp";
 import aiContentImg from "@/assets/images/illustration-ai-content.webp";
+import fiveStarsImg from "@/assets/images/illustration-five-stars.webp";
 
 export function Grid() {
   return (
@@ -27,7 +28,17 @@ export function Grid() {
             </div>
           </div>
 
-          <div className="item grid-item-social"></div>
+          <div className="item grid-item-social">
+            <div>
+              <p>
+                Social Media <span>10x</span> <span>Faster</span> with AI
+              </p>
+              <div>
+                <img src={fiveStarsImg} alt="five stars" />
+              </div>
+              <p>Over 4,000 5-star reviews</p>
+            </div>
+          </div>
 
           <div className="item grid-item-manage"></div>
 
