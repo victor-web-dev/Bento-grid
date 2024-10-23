@@ -74,7 +74,7 @@
 
 .grid-item-social p:first-child,
 .grid-item-social span {
-  font-size: 5rem;
+  font-size: 5vw;
   width: 12ch;
   font-weight: var(--med-weight);
   line-height: 1;
@@ -89,12 +89,12 @@
 }
 
 .grid-item-social p:last-child {
-  font-size: 1.3rem;
+  font-size: 1.5vw;
 }
 
 .grid-item-social img {
   padding-top: 1.5rem;
-  width: 20ch;
+  width: 15vw;
 }
 
 .grid-item-manage {
