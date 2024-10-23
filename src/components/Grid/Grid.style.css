@@ -139,6 +139,26 @@
   background-color: #ffcc69;
 }
 
+/* .grid-item-maintain div {
+  height: 100%;
+} */
+
+.grid-item-maintain p {
+  font-size: 1.5vw;
+  width: 10ch;
+  font-weight: var(--med-weight);
+  line-height: 1;
+  padding-bottom: 0.65rem;
+}
+
+.grid-item-maintain img {
+  width: 12vw;
+  height: 7vw;
+  /* align-self: flex-end; */
+  position: relative;
+  top: 5px;
+}
+
 .grid-item-grow {
   grid-area: grow;
   background-color: #7651dc;

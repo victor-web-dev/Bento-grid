@@ -7,6 +7,8 @@ import multipleImg from "@/assets/images/illustration-multiple-platforms.webp";
 
 import peopleProfileImg from "@/assets/images/illustration-audience-growth.webp";
 
+import scheduleImg from "@/assets/images/illustration-consistent-schedule.webp";
+
 export function Grid() {
   return (
     <>
@@ -63,7 +65,14 @@ export function Grid() {
             </div>
           </div>
 
-          <div className="item grid-item-maintain"></div>
+          <div className="item grid-item-maintain">
+            <div>
+              <p>Maintain a consistent posting schedule.</p>
+              <div>
+                <img src={scheduleImg} alt="calendar illustration" />
+              </div>
+            </div>
+          </div>
 
           <div className="item grid-item-grow"></div>
 
