@@ -10,22 +10,45 @@
 
   height: 95vh;
   width: 100%;
-  padding: 3rem;
+  padding: 1.5rem 3rem;
   gap: 1.5rem;
 }
 
 .item {
   border: 1px solid black;
   border-collapse: collapse;
+  border-radius: 20px;
 }
 
 .grid-item-create {
   grid-area: create;
   background-color: #fdede1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: fit-content; */
+  padding: 2rem 1.2rem;
+}
+
+.grid-item-create p,
+.grid-item-create span {
+  font-size: 2.5rem;
+  width: 10ch;
+}
+
+.grid-item-create span {
+  color: #7c50e2;
+}
+
+.grid-item-create img {
+  width: 20ch;
+  padding-top: 1rem;
 }
 
 .grid-item-ai {
   grid-area: ai;
+  background-color: #ffcc69;
 }
 
 .grid-item-social {
