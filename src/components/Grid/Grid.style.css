@@ -33,7 +33,7 @@
 
 .grid-item-create p,
 .grid-item-create span {
-  font-size: 2.5rem;
+  font-size: 2.5vw;
   width: 10ch;
   line-height: 1;
 }
@@ -43,7 +43,7 @@
 }
 
 .grid-item-create img {
-  width: 20ch;
+  width: 15vw;
   padding-top: 1rem;
 }
 
