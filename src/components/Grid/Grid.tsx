@@ -9,6 +9,8 @@ import peopleProfileImg from "@/assets/images/illustration-audience-growth.webp"
 
 import scheduleImg from "@/assets/images/illustration-consistent-schedule.webp";
 
+import growFollowersImg from "@/assets/images/illustration-grow-followers.webp";
+
 export function Grid() {
   return (
     <>
@@ -74,7 +76,14 @@ export function Grid() {
             </div>
           </div>
 
-          <div className="item grid-item-grow"></div>
+          <div className="item grid-item-grow">
+            <div>
+              <div>
+                <img src={growFollowersImg} alt="" />
+              </div>
+              <p>Grow followers with non-stop content.</p>
+            </div>
+          </div>
 
           <div className="item grid-item-schedule"></div>
         </div>
