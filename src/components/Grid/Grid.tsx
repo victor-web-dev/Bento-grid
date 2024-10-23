@@ -5,6 +5,8 @@ import fiveStarsImg from "@/assets/images/illustration-five-stars.webp";
 
 import multipleImg from "@/assets/images/illustration-multiple-platforms.webp";
 
+import peopleProfileImg from "@/assets/images/illustration-audience-growth.webp";
+
 export function Grid() {
   return (
     <>
@@ -51,7 +53,15 @@ export function Grid() {
             </div>
           </div>
 
-          <div className="item grid-item-audience"></div>
+          <div className="item grid-item-audience">
+            <div>
+              <p>&gt;56%</p>
+              <p>faster audience growth</p>
+              <div>
+                <img src={peopleProfileImg} alt="people profiles" />
+              </div>
+            </div>
+          </div>
 
           <div className="item grid-item-maintain"></div>
 

@@ -124,6 +124,16 @@
   background-color: #f5f5f5;
 }
 
+.grid-item-audience p:first-child {
+  font-size: 3.5vw;
+  font-weight: var(--med-weight);
+}
+
+.grid-item-audience img {
+  width: 10vw;
+  padding-top: 1rem;
+}
+
 .grid-item-maintain {
   grid-area: maintain;
   background-color: #ffcc69;
