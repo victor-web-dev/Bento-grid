@@ -99,6 +99,25 @@
 
 .grid-item-manage {
   grid-area: manage;
+  background-color: #f3eef2;
+  overflow: hidden;
+  /* text-align: center; */
+  /* width: 100%; */
+  padding: 1.5rem;
+}
+
+.grid-item-manage > div {
+  width: 100%;
+}
+
+.grid-item-manage img {
+  width: 25ch;
+}
+
+.grid-item-manage p {
+  font-size: 1.5rem;
+  line-height: 1;
+  width: 10rem;
 }
 
 .grid-item-audience {

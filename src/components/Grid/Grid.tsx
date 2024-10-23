@@ -3,6 +3,8 @@ import createPostImg from "@/assets/images/illustration-create-post.webp";
 import aiContentImg from "@/assets/images/illustration-ai-content.webp";
 import fiveStarsImg from "@/assets/images/illustration-five-stars.webp";
 
+import multipleImg from "@/assets/images/illustration-multiple-platforms.webp";
+
 export function Grid() {
   return (
     <>
@@ -40,7 +42,14 @@ export function Grid() {
             </div>
           </div>
 
-          <div className="item grid-item-manage"></div>
+          <div className="item grid-item-manage">
+            <div>
+              <div>
+                <img src={multipleImg} alt="multiple platforms" />
+              </div>
+              <p>Manage multiple accounts and platforms</p>
+            </div>
+          </div>
 
           <div className="item grid-item-audience"></div>
 
