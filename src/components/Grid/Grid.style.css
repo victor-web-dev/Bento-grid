@@ -145,11 +145,11 @@
 } */
 
 .grid-item-maintain p {
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   width: 10ch;
   font-weight: var(--med-weight);
   line-height: 1;
-  padding-bottom: 0.65rem;
+  /* padding-bottom: 0.65rem; */
 }
 
 .grid-item-maintain img {
@@ -157,7 +157,7 @@
   height: 7vw;
   /* align-self: flex-end; */
   position: relative;
-  top: 5px;
+  top: 27px;
 }
 
 .grid-item-grow {
