@@ -193,4 +193,28 @@
 .grid-item-schedule {
   grid-area: schedule;
   background-color: #dcd1fc;
+  overflow: hidden;
+}
+
+.grid-item-schedule > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding: 0 0 0 2rem;
+}
+
+.grid-item-schedule p:first-child {
+  font-size: 2.5vw;
+  width: 10ch;
+  font-weight: var(--med-weight);
+}
+
+.grid-item-schedule img {
+  width: 25vw;
+}
+
+.grid-item-schedule p:last-child {
+  font-weight: var(--reg-weight);
+  width: 15ch;
 }

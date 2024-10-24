@@ -11,6 +11,8 @@ import scheduleImg from "@/assets/images/illustration-consistent-schedule.webp";
 
 import growFollowersImg from "@/assets/images/illustration-grow-followers.webp";
 
+import schedulePostImg from "@/assets/images/illustration-schedule-posts.webp";
+
 export function Grid() {
   return (
     <>
@@ -85,7 +87,18 @@ export function Grid() {
             </div>
           </div>
 
-          <div className="item grid-item-schedule"></div>
+          <div className="item grid-item-schedule">
+            <div>
+              <p>Schedule to social media</p>
+              <div>
+                <img src={schedulePostImg} alt=" calendar with timing" />
+              </div>
+              <p>
+                Optimize post timings to publish content at the perfect time for
+                your audience
+              </p>
+            </div>
+          </div>
         </div>
       </main>
     </>
