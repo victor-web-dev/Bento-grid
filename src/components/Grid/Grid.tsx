@@ -55,7 +55,7 @@ export function Grid() {
               <div>
                 <img src={multipleImg} alt="multiple platforms" />
               </div>
-              <p>Manage multiple accounts and platforms</p>
+              <p>Manage multiple accounts and platforms.</p>
             </div>
           </div>
 

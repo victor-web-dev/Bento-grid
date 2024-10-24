@@ -114,13 +114,15 @@
 }
 
 .grid-item-manage img {
-  width: 20vw;
+  width: 22vw;
+  padding-bottom: 0.75rem;
 }
 
 .grid-item-manage p {
-  font-size: 1.5vw;
+  font-size: 2vw;
   line-height: 1;
   width: 10ch;
+  font-weight: var(--med-weight);
 }
 
 .grid-item-audience {
