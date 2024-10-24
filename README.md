@@ -27,7 +27,7 @@ Users should be able to:
 <details>
 <summary>Desktop</summary>
 
-![Desktop](./design/desktop-design.jpg)
+![Desktop](./design/desktop-design.png)
 
 </details>
 
