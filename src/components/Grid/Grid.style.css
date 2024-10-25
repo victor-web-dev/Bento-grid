@@ -1,6 +1,6 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 270px);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, auto);
   grid-template-areas:
     "create social social schedule"
@@ -105,7 +105,6 @@
   grid-area: manage;
   background-color: #f3eef2;
   overflow: hidden;
-  /* text-align: center; */
 }
 
 .grid-item-manage > div {
@@ -133,6 +132,10 @@
 .grid-item-audience p:first-child {
   font-size: 3.5vw;
   font-weight: var(--med-weight);
+}
+
+.grid-item-audience p:nth-child(2) {
+  font-size: 1.4vw;
 }
 
 .grid-item-audience img {
@@ -212,7 +215,7 @@
 }
 
 .grid-item-schedule p:first-child {
-  font-size: 2.5vw;
+  font-size: 2vw;
   width: 10ch;
   font-weight: var(--med-weight);
 }
@@ -227,11 +230,11 @@
   font-size: 1.2vw;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(4, 150px);
     grid-template-areas:
       "create social social schedule"
       "create social social schedule"
@@ -243,14 +246,74 @@
     padding: 1.5rem 3rem;
     gap: 0.85rem;
     justify-content: center;
+    align-content: center;
+  }
+
+  .grid-item-maintain > div {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+  }
+
+  .grid-item-audience > div {
+    padding: 1rem;
+  }
+
+  .grid-item-audience p:first-child {
+    font-size: 3vw;
+    font-weight: var(--med-weight);
+  }
+
+  .grid-item-audience p:nth-child(2) {
+    font-size: 0.8rem;
+  }
+
+  .grid-item-audience img {
+    width: 10vw;
+    padding-top: 1rem;
+  }
+
+  .grid-item-manage > div {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .grid-item-manage img {
+    width: 21vw;
+    padding-bottom: 0.75rem;
+  }
+
+  .grid-item-ai img {
+    width: 19vw;
+  }
+
+  .grid-item-schedule > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 0 0 0 1.5rem;
+  }
+
+  .grid-item-schedule p:first-child {
+    font-size: 2vw;
+  }
+
+  .grid-item-schedule p:last-child {
+    font-size: 1.4vw;
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 430px) {
+  .attribution {
+    font-size: 20px;
+    text-align: center;
+  }
+
   .grid-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 250px 200px 250px 450px 370px 200px 250px 450px;
+    grid-template-rows: 250px 200px 250px 470px 370px 200px 250px 450px;
     grid-template-areas:
       "social"
       "manage"
@@ -261,11 +324,12 @@
       "create"
       "ai";
 
-    height: 95vh;
+    height: 100vh;
     width: 100%;
     padding: 1.5rem 1rem;
     gap: 0.85rem;
     justify-content: center;
+    align-content: baseline;
     overflow-y: scroll;
   }
 
@@ -362,7 +426,7 @@
   }
 
   .grid-item-schedule p:first-child {
-    font-size: 1.4rem;
+    font-size: 6vw;
     width: auto;
     font-weight: var(--med-weight);
   }
