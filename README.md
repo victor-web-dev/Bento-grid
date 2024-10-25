@@ -24,17 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-<details>
-<summary>Desktop</summary>
-
 ![Desktop](./design/desktop-design.png)
-
-</details>
 
 <details>
 <summary>Mobile</summary>
 
-![Mobile](./design/mobile-design.jpg)
+![Mobile](./design/mobile-design.jpeg)
 
 </details>
 
