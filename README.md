@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github](https://github.com/victor-web-dev/Bento-grid)
+- Live Site URL: [Bento-grid](https://victor-web-dev.github.io/Bento-grid/)
 
 ## My process
 
