@@ -12,9 +12,4 @@ export default defineConfig({
     outDir: "build",
   },
   base: "./",
-  // resolve: {
-  //   alias: {
-  //     "@": __dirname + "./src",
-  //   },
-  // },
 });
